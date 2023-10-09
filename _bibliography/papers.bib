@@ -3,7 +3,7 @@
 
 
 
-@inproceedings{emnlp2023a,
+@article{emnlp2023a,
     abbr="EMNLP2023",
     selected=True,
     title = "Enhancing Biomedical Lay Summarisation with External Knowledge Graphs",
@@ -12,14 +12,12 @@
       Tang, Chen  and
       Scarton, Carolina and
       Lin, Chenghua",
-    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing.",
-    month = December,
-    year = "2023",
     publisher = "Association for Computational Linguistics",
+    journal={Accepted to the 2023 Conference on Empirical Methods in Natural Language Processing.},
     abstract = "Previous approaches for automatic lay summarisation are exclusively reliant on the source article that, given it is written for a technical audience (e.g., researchers), is unlikely to explicitly define all technical concepts or state all of the background information that is relevant for a lay audience. We address this issue by augmenting eLife, an existing biomedical lay summarisation dataset, with article-specific knowledge graphs, each containing detailed information on relevant biomedical concepts. Using both automatic and human evaluations, we systematically investigate the effectiveness of three different approaches for incorporating knowledge graphs within lay summarisation models, with each method targeting a distinct area of the encoder-decoder model architecture. Our results confirm that integrating graph-based domain knowledge can significantly benefit lay summarisation by substantially increasing the readability of generated text and improving the explanation of technical concepts.",
 }
 
-@inproceedings{emnlp2023b,
+@article{emnlp2023b,
     abbr="EMNLP2023",
     selected=True,
     title = "Improving Biomedical Abstractive Summarisation with Knowledge Aggregation from Citation Papers",
@@ -27,13 +25,10 @@
       Wang, Shun  and
       Goldsack, Tomas and
       Lin, Chenghua",
-    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing.",
-    month = December,
-    year = "2023",
+    journal={Accepted to the 2023 Conference on Empirical Methods in Natural Language Processing.},
     publisher = "Association for Computational Linguistics",
     abstract = "Abstracts derived from biomedical literature possess distinct domain-specific characteristics, including specialized writing styles and biomedical terminologies, which necessitate a deep understanding of the related literature. As a result, existing language models struggle to generate technical summaries that are on par with those produced by biomedical experts, given the absence of domain-specific background knowledge. This paper aims to enhance the performance of language models in biomedical abstractive summarisation by aggregating knowledge from external papers cited within the source article. We propose a novel attention-based citation aggregation model that integrates domain-specific knowledge from citation papers, allowing neural networks to generate summaries by leveraging both the paper content and relevant knowledge from citation papers. Furthermore, we construct and release a large-scale biomedical summarisation dataset that serves as a foundation for our research. Extensive experiments demonstrate that our model outperforms state-of-the-art approaches and achieves substantial improvements in abstractive biomedical text summarisation.",
 }
-
 
 
 @inproceedings{goldsack-etal-2023-biolaysumm,
@@ -58,6 +53,7 @@
     arxiv = "2309.17332",
     abstract = "This paper presents the results of the shared task on Lay Summarisation of Biomedical Research Articles (BioLaySumm), hosted at the BioNLP Workshop at ACL 2023. The goal of this shared task is to develop abstractive summarisation models capable of generating {``}lay summaries{''} (i.e., summaries that are comprehensible to non-technical audiences) in both a controllable and non-controllable setting.There are two subtasks: 1) Lay Summarisation, where the goal is for participants to build models for lay summary generation only, given the full article text and the corresponding abstract as input; and2) Readability-controlled Summarisation, where the goal is for participants to train models to generate both the technical abstract and the lay summary, given an article{'}s main text as input.In addition to overall results, we report on the setup and insights from the BioLaySumm shared task, which attracted a total of 20 participating teams across both subtasks.",
 }
+
 
 @inproceedings{10.1007/978-3-031-28244-7_23,
   abbr="ECIR2023",
@@ -96,5 +92,4 @@
     pages = "10589--10604",
     abstract = "Lay summarisation aims to jointly summarise and simplify a given text, thus making its content more comprehensible to non-experts.Automatic approaches for lay summarisation can provide significant value in broadening access to scientific literature, enabling a greater degree of both interdisciplinary knowledge sharing and public understanding when it comes to research findings. However, current corpora for this task are limited in their size and scope, hindering the development of broadly applicable data-driven approaches. Aiming to rectify these issues, we present two novel lay summarisation datasets, PLOS (large-scale) and eLife (medium-scale), each of which contains biomedical journal articles alongside expert-written lay summaries.We provide a thorough characterisation of our lay summaries, highlighting differing levels of readability and abstractivenessbetween datasets that can be leveraged to support the needs of different applications.Finally, we benchmark our datasets using mainstream summarisation approaches and perform a manual evaluation with domain experts, demonstrating their utility and casting light on the key challenges of this task.",
 }
-
 
