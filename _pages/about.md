@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a third-year PhD candidate at the [UKRI Centre for Doctoral Training Speech and Language Technologies](https://slt-cdt.ac.uk/) @ the University of Sheffield, where I am supervised by [Dr. Chenghua Lin](https://chenghualin.wordpress.com/) and [Dr. Carolina Scarton](https://carolscarton.github.io/).
+I am a final-year PhD candidate at the [UKRI Centre for Doctoral Training Speech and Language Technologies](https://slt-cdt.ac.uk/) @ the University of Sheffield, where I am supervised by [Dr. Chenghua Lin](https://chenghualin.wordpress.com/) and [Dr. Carolina Scarton](https://carolscarton.github.io/).
 My work is focused mainly on the summarisation of scientific or specialist text, with an emphasis on broadening access to technical content through the generation of readable, non-expert summaries.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
